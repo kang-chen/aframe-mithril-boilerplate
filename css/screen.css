@@ -1,0 +1,7 @@
+.buttons-container {
+    position: absolute;
+}
+
+.btn {
+    float: left;
+}
