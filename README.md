@@ -2,6 +2,8 @@
 
 Get started with A Frame and Mithril, an awesome combo allowing you to build 3D/VR apps. 
 
+![](demo.png)
+
 ## Getting Started  
 
 ```npm install``` then  ```npm run start```
