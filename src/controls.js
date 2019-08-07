@@ -25,19 +25,8 @@ function ButtonsContainer() {
     }
 }
 
-function TimeLine() {
-    return {
-        view: () => (
-            <div>
-                TimeLine
-            </div>
-        )
-    }
-}
-
 const Controls = [
-    <ButtonsContainer/>,
-    <TimeLine/>
+    <ButtonsContainer/>
 ]
 
 export default Controls

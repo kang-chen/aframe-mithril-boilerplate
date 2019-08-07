@@ -1,5 +1,3 @@
-import { throttle } from 'lodash'
-
 export default (function() {
 
     let zoomLevel = 1;
@@ -9,7 +7,7 @@ export default (function() {
     }
 
     Zoom.prototype.init = function() {
-        document.addEventListener('wheel', throttle(function(event) {   
+        document.addEventListener('wheel', function(event) {   
             const camera = document.getElementById('main-camera');
 
             if (event.deltaY < 0 ) {
@@ -20,7 +18,7 @@ export default (function() {
                 camera.setAttribute('zoom', zoomLevel-=0.1);
                 
             }
-        }, 10))
+        })
     }
 
     return Zoom;
