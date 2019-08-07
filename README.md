@@ -1,8 +1,8 @@
-# A Frame & Mithril boilerplate
+# A Frame & Mithril boilerplate  
 
-Get started with A Frame and Mithril, an awesome combo allowing you to build 3D/VR apps.
+Get started with A Frame and Mithril, an awesome combo allowing you to build 3D/VR apps. 
 
-## Getting Started
+## Getting Started  
 
 ```npm install``` then  ```npm run start```
 
@@ -18,6 +18,6 @@ KDog a.k.a Kang Chen
 
 MIT
 
-## Acknowledgments  
+## Acknowledgments 
 
-Creators of A Frame && Mithril  
+Creators of [A Frame](https://aframe.io/) && [Mithril](https://mithril.js.org/)
