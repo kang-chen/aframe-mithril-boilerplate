@@ -1,4 +1,5 @@
-var m = require("mithril")
+require("aframe");
+var m = require("mithril");
 
 import Controls from './controls'
 import ZoomHandler from './handlers'
